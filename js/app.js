@@ -8,7 +8,7 @@ elBtn.addEventListener('click', function () {
     let password = elInput2.value; 
     
     if (login === "Sumayya" && password === "1234") {
-        elOutput.textContent = "Login yoki parol xato";
+        elOutput.textContent = "Siz Muvaffaqatli kirdingiz!";
         elOutput.style.color = "green"; 
     } else {
         elOutput.textContent = "Login yoki parol xato";
