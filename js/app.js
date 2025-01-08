@@ -1,12 +1,17 @@
-let elInput1 = document.getElementById("login")
-let elInput2 = document.getElementById("password")
-let elBtn = document.getElementById("btn")
+let elInput1 = document.getElementById("login");
+let elInput2 = document.getElementById("password");
+let elBtn = document.getElementById("btn");
+let elOutput = document.getElementById("output"); 
 
- elInput1, elInput2 = prompt('Login va Pasword kiriting')
-
-if ( login === "Sumayya" password ==="1234"){
-    elInput1, elInput2.textContent = "Login va pasol to'g'ri ekan"
-}
-else {
-    elInput1, elInput2.textContent = "Login va pasol xato ekan" 
-}
+elBtn.addEventListener('click', function () {
+    let login = elInput1.value; 
+    let password = elInput2.value; 
+    
+    if (login === "Sumayya" && password === "1234") {
+        elOutput.textContent = "Login yoki parol xato";
+        elOutput.style.color = "green"; 
+    } else {
+        elOutput.textContent = "Login yoki parol xato";
+        elOutput.style.color = "red"; 
+    }
+});

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: all 0.7s ease;
+
+}
+
+#container {
+    width: 310px;
+    height: 300px;
+    border: 2px;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(238, 238, 241);
+
+}
+
+#wester {
+    margin-top: 20px;
+    margin-left: 115px;
+    margin-bottom: 3px;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+#text-1{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 3px;
+}
+#text-2{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 3px;
+}
+#login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(165, 215, 219);
+    padding: 5px;
+    border: none;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+#password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(165, 215, 219);
+    padding: 5px;
+    font-family: cursive;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#btn {
+
+    width: 200px;
+    background-color: rgb(43, 122, 226);
+    padding: 5px;
+    font-family: cursive;
+    border: none;
+}
